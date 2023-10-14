@@ -81,9 +81,8 @@ const chatBox = `<div id='chatbot-box-all' style="width: 370px;
 
 
 // itsert chatbot
-document.querySelector('body').insertAdjacentHTML('afterend', toggle);
-
-document.querySelector('body').insertAdjacentHTML('afterend', chatBox);
+document.querySelector('body').insertAdjacentHTML('beforeend', toggle);
+document.querySelector('body').insertAdjacentHTML('beforeend', chatBox);
 
 
 const chatClose = document.getElementById('close-chatbot');
