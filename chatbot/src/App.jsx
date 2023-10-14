@@ -20,7 +20,7 @@ function App() {
       <h3>
         {
 
-          `<script src="myScript.js" />`
+          `<script src="https://gurneet-singhh.github.io/chatbot/Chatbot.js"></script>`
         }
       </h3>
     </>
