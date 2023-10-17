@@ -14,7 +14,7 @@ export default function Row({data}){
           "MM/dd/yyyy"
         )}`}</th>
 
-        <th>{data.NumberofDays}</th>
+        <th>{data.numberOfDays}</th>
         <th>{data.leadCount}</th>
         <th>{data.drr}</th>
         <th>{format(new Date(), "MM/dd/yyyy")}</th>
