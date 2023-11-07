@@ -109,6 +109,8 @@ export default function Main() {
                     },
                 ]}
             />
+{/*slider  */}
+            <Slider/>
             {/* 2 */}
             <Section
                 data1={{
