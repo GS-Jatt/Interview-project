@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Card from "./Card";
 import Section from "./Section";
+import Slider from "./Slider";
 
 const StyledMain = styled.main`
     height: 100vh;
